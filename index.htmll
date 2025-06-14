@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Everything - Fatma 💌</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive;
+      background: linear-gradient(to bottom, #fff0f5, #ffe6f0);
+      color: #4d004d;
+      overflow: hidden;
+    }
+
+    #lockScreen {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      z-index: 999;
+    }
+
+    #lockScreen input {
+      padding: 10px;
+      font-size: 18px;
+      margin: 10px;
+    }
+
+    #loveContent {
+      display: none;
+      text-align: center;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #e60073;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    .hippo-img, .tomato-img {
+      width: 200px;
+      margin: 10px;
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes
